@@ -1,26 +1,26 @@
-# AptosFullNode-Guide
-How can i create full node for aptos.
+# Hướng dẫn chạy FullNode Aptos
 
-## <a name='İçerik'></a>İçerik
 
-* [1. Requirements](#1-requirements)
-* [2. Setup Step By Step](#2-setup-guide-step-by-step)
 
-## 1. Requirements
+* [1. Cấu hình tối thiểu](#1-requirements)
+* [2. Hướng dẫn cài đặt từng bước](#2-setup-guide-step-by-step)
 
-**If running the Fullnode for development or testing purpose**:
+## 1. Cấu hình tối thiểu
+
+**Nếu chạy node node cho mục đích dev và test**:
 
 **CPU**: 2 cores
 **Memory**: 4GiB RAM
 
-**For running a production grade Fullnode we recommend using hardware with**:
+**Chạy node cho product cấu hình tối thiểu dưới đây**:
 
-**CPU**: Intel Xeon Skylake or newer, 4 cores
+**CPU**: Intel Xeon Skylake hoặc mới hơn, 4 nhân.
+
 **Memory**: 8GiB RAM
 
-## 2. Setup Step By Step
+## 2. Hướng dẫn cài đặt từng bước
 
-**Firs Step Install Screen and Docker**
+**Bước 1 Cài Screen và Docker**
 
 ```sudo apt install screen```
 
@@ -39,7 +39,7 @@ How can i create full node for aptos.
 ```sudo apt install docker-ce docker-ce-cli containerd.io -y```
 
 
-**Second Step Install Docker Compose**
+**Bước 2 Cài Docker Compose**
 
 ```mkdir -p ~/.docker/cli-plugins/```
 
@@ -49,7 +49,7 @@ How can i create full node for aptos.
 
 ```sudo chown $USER /var/run/docker.sock```
 
-**Third Step Create a Folder Aptos in Which We Will Download Config Files**
+**BƯỚC 3 Tạo folder Aptos để Download Config Files**
 
 ```mkdir $HOME/aptos```
 
@@ -63,18 +63,18 @@ How can i create full node for aptos.
 
 ```wget https://devnet.aptoslabs.com/waypoint.txt```
 
-**Fourth Step Launching The Node**
+  **BƯỚC 4 Chạy Node**
 
 ```docker compose up -d```
 
 Well done , you are in.
 
-**Useful Codes**
+** Code hữu ích**
 
-**Checking the sync status**
+**Kiểm tra trạng thái sync**
 
 ```curl 127.0.0.1:9101/metrics 2> /dev/null | grep aptos_state_sync_version | grep type```
 
-**Look Logs**
+**Xem log**
 
 ```docker logs -f aptos-fullnode-1 --tail 5000```
