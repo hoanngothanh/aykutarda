@@ -2,7 +2,7 @@
 
 
 
-* [1. Cấu hình tối thiểu](#1--hinh-toi-)
+* [1. Cấu hình tối thiểu](#1-cau-hinh-toi-thieu)
 * [2. Hướng dẫn cài đặt từng bước](#2-setup-guide-step-by-step)
 
 ## 1. Cấu hình tối thiểu
