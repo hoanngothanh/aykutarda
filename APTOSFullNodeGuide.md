@@ -1,6 +1,7 @@
 # Hướng dẫn chạy FullNode Aptos
 
-
+Đăng ký VPS trên Digital OCean. Free 100 USD trong 2 tháng. 
+https://m.do.co/c/6278f083a3ca
 
 * [1. Cấu hình tối thiểu](#1-cau-hinh-toi-thieu)
 * [2. Hướng dẫn cài đặt từng bước](#2-setup-guide-step-by-step)
