@@ -3,6 +3,8 @@
 Đăng ký VPS trên Digital OCean. Free 100 USD trong 2 tháng. 
 https://m.do.co/c/6278f083a3ca
 
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=6278f083a3ca&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
 * [1. Cấu hình tối thiểu](#1-cau-hinh-toi-thieu)
 * [2. Hướng dẫn cài đặt từng bước](#2-setup-guide-step-by-step)
 
